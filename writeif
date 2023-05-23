@@ -1,0 +1,4 @@
+    andi t1, s0, 0x040
+    beq t1, zero, FALSE
+    addi s6, zero, -1
+FALSE:
