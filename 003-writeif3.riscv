@@ -1,0 +1,5 @@
+    lui t0, 0x  40000
+    and t0, s0, t0
+    beq t0, zero, UNCHANGED
+    addi s6, zero, -1
+UNCHANGED:
