@@ -1,0 +1,6 @@
+    addi t0, zero, 1
+    slli t0, t0, 54
+    and t1, s0, t1
+    beq t1, zero, FALSE
+    addi s6, zero, -1
+FALSE:
