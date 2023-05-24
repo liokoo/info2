@@ -1,0 +1,8 @@
+      bne t1, t0, NE
+      addi s0, zero, 3
+      j END
+NE:   blt t1, t0 LTE
+      addi s0, zero, 2
+      j END
+LT    addi s0, zero, 1
+END:
